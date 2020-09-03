@@ -1,0 +1,185 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+body {
+  font-family: "WorkSans", Fallback, sans-serif;
+  font-family: "Lora", Fallback, sans-serif; }
+
+.primary-heading {
+  font-family: "WorkSans", Fallback, sans-serif;
+  font-size: 1.8rem;
+  color: #9895cd;
+  text-transform: uppercase;
+  padding-bottom: 13px; }
+
+.paragraph {
+  font-size: 2.4rem;
+  color: #202020;
+  margin-bottom: 3%;
+  width: 40%;
+  line-height: 1.4;
+  text-align: center; }
+
+.btn-primary img {
+  display: block; }
+
+.btn-primary .btn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: black;
+  width: 98px; }
+
+.home-section-event {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+header {
+  width: 100%;
+  font-family: "WorkSans", fallback sans-serif; }
+
+nav {
+  width: 100%;
+  height: 87px;
+  font-size: 1.4rem;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  nav .logo-wrapper {
+    display: flex;
+    align-items: center; }
+    nav .logo-wrapper h2 {
+      color: #4f4f4f;
+      line-height: 116%;
+      width: 211px;
+      margin-left: 20px;
+      font-size: 1.4rem;
+      align-self: flex-end; }
+  nav ul {
+    list-style: none; }
+    nav ul li a {
+      justify-self: flex-end;
+      text-decoration: none;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0 20px; }
+  nav .checkout-container img {
+    display: inline-block;
+    margin-right: 25px; }
+
+footer {
+  height: 168px;
+  font-family: "WorkSans", fallback sans-serif;
+  width: 100%; }
+  footer .footer-border {
+    height: 100%;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    width: 95%;
+    margin: auto; }
+  footer .footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    border-bottom: 1px solid #e6e6e6; }
+    footer .footer-links ul {
+      list-style: none; }
+      footer .footer-links ul li a {
+        text-decoration: none;
+        color: #333333;
+        text-transform: uppercase;
+        margin: 0 20px;
+        font-size: 1.4rem; }
+    footer .footer-links .footer-social-icons {
+      margin-right: 20px; }
+      footer .footer-links .footer-social-icons :not(:last-child) {
+        margin-right: 20px; }
+  footer .footer-copyright {
+    display: flex;
+    height: 20%;
+    margin-left: 20px;
+    align-items: center; }
+    footer .footer-copyright h3 {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      color: #9895cd;
+      opacity: 0.5;
+      font-weight: normal; }
+    footer .footer-copyright img {
+      margin: 0 1em; }
+    footer .footer-copyright h4 {
+      font-size: 1rem;
+      color: #9895cd;
+      opacity: 0.5; }
+
+.col-left {
+  background-color: rgba(243, 242, 249, 0.5);
+  width: 100%;
+  height: auto; }
+  .col-left .event-title-large {
+    padding-top: 40%;
+    padding-left: 15%;
+    justify-content: center;
+    width: 90%; }
+    .col-left .event-title-large h1 {
+      font-size: 4rem;
+      font-family: "Lora", Fallback, sans-serif;
+      line-height: 1.4;
+      font-weight: normal;
+      color: #202020;
+      padding-bottom: 4rem;
+      text-align: left; }
+
+.col-right {
+  height: 765px;
+  display: block;
+  width: 100%; }
+  .col-right img {
+    max-width: 100%;
+    height: auto; }
+
+.home-section-alice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  text-align: center; }
+  .home-section-alice img {
+    width: 100px; }
+
+.home-about-artist {
+  background-color: rgba(243, 242, 249, 0.5);
+  height: 959px;
+  display: flex;
+  align-items: center; }
+
+.col-left-about {
+  width: 100%; }
+  .col-left-about img {
+    position: relative;
+    max-width: 100%;
+    height: auto; }
+
+.col-right-about .about-title-large {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .col-right-about .about-title-large p {
+    width: 50%; }
