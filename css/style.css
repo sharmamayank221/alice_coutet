@@ -85,47 +85,50 @@ footer {
   height: 168px;
   font-family: "WorkSans", fallback sans-serif;
   width: 100%; }
-  footer .footer-border {
-    height: 100%;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    width: 95%;
-    margin: auto; }
-  footer .footer-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80%;
-    border-bottom: 1px solid #e6e6e6; }
-    footer .footer-links ul {
-      list-style: none; }
-      footer .footer-links ul li a {
-        text-decoration: none;
-        color: #333333;
-        text-transform: uppercase;
-        margin: 0 20px;
-        font-size: 1.4rem; }
-    footer .footer-links .footer-social-icons {
-      margin-right: 20px; }
-      footer .footer-links .footer-social-icons :not(:last-child) {
-        margin-right: 20px; }
-  footer .footer-copyright {
-    display: flex;
-    height: 20%;
-    margin-left: 20px;
-    align-items: center; }
-    footer .footer-copyright h3 {
+
+.footer-border {
+  height: 100%;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  width: 95%;
+  margin: auto; }
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+  border-bottom: 1px solid #e6e6e6; }
+  .footer-links ul {
+    list-style: none; }
+    .footer-links ul li a {
+      text-decoration: none;
+      color: #333333;
       text-transform: uppercase;
-      font-size: 1.2rem;
-      color: #9895cd;
-      opacity: 0.5;
-      font-weight: normal; }
-    footer .footer-copyright img {
-      margin: 0 1em; }
-    footer .footer-copyright h4 {
-      font-size: 1rem;
-      color: #9895cd;
-      opacity: 0.5; }
+      margin: 0 20px;
+      font-size: 1.4rem; }
+  .footer-links .footer-social-icons {
+    margin-right: 20px; }
+    .footer-links .footer-social-icons :not(:last-child) {
+      margin-right: 20px; }
+
+.footer-copyright {
+  display: flex;
+  height: 20%;
+  margin-left: 20px;
+  align-items: center; }
+  .footer-copyright h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #9895cd;
+    opacity: 0.5;
+    font-weight: normal; }
+  .footer-copyright img {
+    margin: 0 1em; }
+  .footer-copyright h4 {
+    font-size: 1rem;
+    color: #9895cd;
+    opacity: 0.5; }
 
 .col-left {
   background-color: rgba(243, 242, 249, 0.5);
