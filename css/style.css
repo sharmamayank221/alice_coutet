@@ -25,6 +25,14 @@ body {
   text-transform: uppercase;
   padding-bottom: 13px; }
 
+.secondary-heading {
+  font-size: 3.4rem;
+  line-height: 1.3;
+  color: #202020;
+  margin-bottom: 6px;
+  padding-bottom: 2rem;
+  padding-top: 6rem; }
+
 .paragraph {
   font-size: 2.4rem;
   color: #202020;
@@ -33,6 +41,11 @@ body {
   line-height: 1.4;
   text-align: center; }
 
+.heading-medium {
+  font-size: 2.6rem;
+  color: #202020;
+  padding-bottom: 2rem; }
+
 .btn-primary img {
   display: block; }
 
@@ -40,12 +53,125 @@ body {
   text-decoration: none;
   font-size: 1.8rem;
   color: black;
-  width: 98px; }
+  width: 98px;
+  margin-top: 2rem; }
+
+.btn-submit {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+  right: 2%;
+  top: 40%; }
+  .btn-submit:focus {
+    outline: none; }
+
+.featured-card {
+  background-color: #f9f8fc;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .featured-card img {
+    height: auto; }
 
 .home-section-event {
   width: 100%;
   display: flex;
+  height: 100%;
   justify-content: space-between; }
+
+.home-section-alice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 9rem 0;
+  text-align: center; }
+  .home-section-alice img {
+    width: 100px; }
+
+.home-featured {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e6e6e6; }
+
+.featured-companies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 6rem; }
+
+.home-products {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e6e6e6;
+  width: 95%;
+  margin: auto;
+  padding-bottom: 6rem; }
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+  padding-bottom: 4rem; }
+  .products-container img {
+    max-width: 100%;
+    height: auto; }
+
+.home-instagram {
+  text-align: center; }
+
+.home-commission-work {
+  display: flex;
+  width: 95%;
+  height: 430px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-right: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6; }
+
+.commission-work {
+  border-top: none;
+  flex: 1 0 50%;
+  padding: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.newsletter {
+  border-left: 1px solid #e6e6e6;
+  flex: 1 0 50%;
+  padding: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .newsletter .input-email {
+    width: 70%;
+    position: relative; }
+  .newsletter input {
+    width: 100%;
+    height: 5.8rem;
+    border: 1px solid #e6e6e6;
+    padding-left: 1rem; }
+    .newsletter input::placeholder {
+      font-size: 1.4rem;
+      font-family: "WorkSans", fallback sans-serif;
+      color: #4f4f4f; }
 
 header {
   width: 100%;
@@ -87,10 +213,10 @@ footer {
   width: 100%; }
 
 .footer-border {
-  height: 100%;
-  border-left: 1px solid #e6e6e6;
-  border-right: 1px solid #e6e6e6;
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
   width: 95%;
+  height: 100%;
   margin: auto; }
 
 .footer-links {
@@ -132,12 +258,10 @@ footer {
 
 .col-left {
   background-color: rgba(243, 242, 249, 0.5);
-  width: 100%;
-  height: auto; }
+  flex: 0 1 50%; }
   .col-left .event-title-large {
-    padding-top: 40%;
+    padding-top: 30%;
     padding-left: 15%;
-    justify-content: center;
     width: 90%; }
     .col-left .event-title-large h1 {
       font-size: 4rem;
@@ -149,33 +273,31 @@ footer {
       text-align: left; }
 
 .col-right {
-  height: 765px;
-  display: block;
-  width: 100%; }
+  flex: 1 0 50%;
+  display: block; }
   .col-right img {
-    max-width: 100%;
-    height: auto; }
-
-.home-section-alice {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-  text-align: center; }
-  .home-section-alice img {
-    width: 100px; }
+    max-width: 100%; }
 
 .home-about-artist {
   background-color: rgba(243, 242, 249, 0.5);
-  height: 959px;
+  height: 100%;
+  padding: 9rem 0;
   display: flex;
   align-items: center; }
 
 .col-left-about {
   width: 100%; }
+  .col-left-about .home-image-container {
+    position: relative; }
+    .col-left-about .home-image-container .gradient-1 {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 31px;
+      top: 31px;
+      background-image: linear-gradient(180deg, #f0efff 0%, #fff4f5 100%);
+      z-index: -2; }
   .col-left-about img {
-    position: relative;
     max-width: 100%;
     height: auto; }
 
@@ -186,3 +308,41 @@ footer {
   align-items: center; }
   .col-right-about .about-title-large p {
     width: 50%; }
+
+.home-event-latest {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 9rem 0; }
+  .home-event-latest .event-title-large {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .home-event-latest .event-title-large p {
+      width: 60%; }
+  .home-event-latest .col-right-event {
+    width: 100%; }
+    .home-event-latest .col-right-event .home-image-container {
+      position: relative; }
+      .home-event-latest .col-right-event .home-image-container .gradient-2 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 31px;
+        top: 31px;
+        background-image: linear-gradient(180deg, #f4fdea 0%, #dff6f0 100%);
+        z-index: -2; }
+    .home-event-latest .col-right-event img {
+      max-width: 100%;
+      height: auto; }
+
+.instagram-photo-contianer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: none;
+  object-fit: cover; }
+  .instagram-photo-contianer img {
+    width: 100%;
+    height: auto; }
