@@ -643,6 +643,393 @@ footer {
       max-width: 100%;
       height: auto; }
 
+.checkout-page {
+  width: 95%;
+  margin: 0 auto;
+  height: 100%; }
+
+.checkout-wrapper {
+  height: 100%;
+  border: 1px solid #e6e6e6; }
+
+.checkout-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 6rem 0; }
+  .checkout-title h1 {
+    color: #333333;
+    font-size: 5.9rem;
+    font-weight: normal;
+    text-transform: uppercase; }
+
+.checkout-page-container {
+  display: flex; }
+  .checkout-page-container form {
+    display: flex; }
+
+.upcoming-events-container {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f2f9;
+  padding: 6rem 0; }
+  .upcoming-events-container .heading-29 {
+    padding-left: 5%; }
+
+.upcoming-events {
+  display: flex;
+  width: 90%;
+  margin: auto; }
+  .upcoming-events .upcoming-events-1 {
+    margin-right: 2rem;
+    position: relative;
+    height: 100%; }
+    .upcoming-events .upcoming-events-1 img {
+      max-width: 100%;
+      height: auto; }
+    .upcoming-events .upcoming-events-1 .upcoming-events-overlay {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) -3.07%, #131313 100%); }
+      .upcoming-events .upcoming-events-1 .upcoming-events-overlay .date {
+        margin-left: 3rem;
+        margin-top: 3rem;
+        text-align: center;
+        width: 8rem;
+        background-color: #ffff;
+        padding: 1rem 1rem; }
+        .upcoming-events .upcoming-events-1 .upcoming-events-overlay .date h1 {
+          font-size: 3rem; }
+      .upcoming-events .upcoming-events-1 .upcoming-events-overlay .venue {
+        padding-left: 3rem;
+        padding-bottom: 3rem; }
+        .upcoming-events .upcoming-events-1 .upcoming-events-overlay .venue h2 {
+          font-family: "WorkSans", fallback sans-serif;
+          font-size: 1.8rem;
+          font-weight: normal;
+          color: #ffffff;
+          opacity: 0.5;
+          padding-bottom: 1rem;
+          text-transform: uppercase; }
+        .upcoming-events .upcoming-events-1 .upcoming-events-overlay .venue h1 {
+          font-size: 4rem;
+          font-weight: normal;
+          color: #ffffff; }
+  .upcoming-events .upcoming-events-2 {
+    position: relative;
+    height: 100%; }
+    .upcoming-events .upcoming-events-2 img {
+      max-width: 100%;
+      height: auto; }
+    .upcoming-events .upcoming-events-2 .upcoming-events-overlay {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) -3.07%, #131313 100%); }
+      .upcoming-events .upcoming-events-2 .upcoming-events-overlay .date {
+        margin-left: 3rem;
+        margin-top: 3rem;
+        text-align: center;
+        width: 8rem;
+        background-color: #ffff;
+        padding: 1rem 1rem; }
+        .upcoming-events .upcoming-events-2 .upcoming-events-overlay .date h1 {
+          font-size: 3rem; }
+      .upcoming-events .upcoming-events-2 .upcoming-events-overlay .venue {
+        padding-left: 3rem;
+        padding-bottom: 3rem; }
+        .upcoming-events .upcoming-events-2 .upcoming-events-overlay .venue h2 {
+          font-family: "WorkSans", fallback sans-serif;
+          font-size: 1.8rem;
+          font-weight: normal;
+          color: #ffffff;
+          opacity: 0.5;
+          text-transform: uppercase;
+          padding-bottom: 1rem; }
+        .upcoming-events .upcoming-events-2 .upcoming-events-overlay .venue h1 {
+          font-size: 4rem;
+          font-weight: normal;
+          color: #ffffff; }
+
+.previous-events-container {
+  height: 100%;
+  padding: 9rem 0; }
+  .previous-events-container h1 {
+    margin-left: 5%; }
+
+.previous-events {
+  display: flex;
+  width: 90%;
+  margin: auto; }
+  .previous-events .previous-events-1 {
+    position: relative;
+    height: 100%;
+    margin-right: 1rem; }
+    .previous-events .previous-events-1 img {
+      max-width: 100%;
+      height: auto; }
+    .previous-events .previous-events-1 .previous-events-overlay {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) -3.07%, #131313 100%); }
+      .previous-events .previous-events-1 .previous-events-overlay .date {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+        width: 6rem;
+        background-color: #ffff;
+        padding: 0.5rem 0.5rem; }
+        .previous-events .previous-events-1 .previous-events-overlay .date h1 {
+          font-size: 2rem; }
+        .previous-events .previous-events-1 .previous-events-overlay .date h2 {
+          font-size: 1rem; }
+      .previous-events .previous-events-1 .previous-events-overlay .venue {
+        padding-left: 2rem;
+        padding-bottom: 2rem; }
+        .previous-events .previous-events-1 .previous-events-overlay .venue h2 {
+          font-family: "WorkSans", fallback sans-serif;
+          font-size: 1.2rem;
+          font-weight: normal;
+          color: #ffffff;
+          opacity: 0.5;
+          text-transform: uppercase;
+          padding-bottom: 0.5rem; }
+        .previous-events .previous-events-1 .previous-events-overlay .venue h1 {
+          font-size: 2.6rem;
+          font-weight: normal;
+          color: #ffffff;
+          margin-left: 0; }
+  .previous-events .previous-events-2 {
+    position: relative;
+    height: 100%;
+    margin-right: 1rem; }
+    .previous-events .previous-events-2 img {
+      max-width: 100%;
+      height: auto; }
+    .previous-events .previous-events-2 .previous-events-overlay {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) -3.07%, #131313 100%); }
+      .previous-events .previous-events-2 .previous-events-overlay .date {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+        width: 6rem;
+        background-color: #ffff;
+        padding: 0.5rem 0.5rem; }
+        .previous-events .previous-events-2 .previous-events-overlay .date h1 {
+          font-size: 2rem; }
+        .previous-events .previous-events-2 .previous-events-overlay .date h2 {
+          font-size: 1rem; }
+      .previous-events .previous-events-2 .previous-events-overlay .venue {
+        padding-left: 2rem;
+        padding-bottom: 2rem; }
+        .previous-events .previous-events-2 .previous-events-overlay .venue h2 {
+          font-family: "WorkSans", fallback sans-serif;
+          font-size: 1.2rem;
+          font-weight: normal;
+          color: #ffffff;
+          opacity: 0.5;
+          text-transform: uppercase;
+          padding-bottom: 0.5rem; }
+        .previous-events .previous-events-2 .previous-events-overlay .venue h1 {
+          font-size: 2.6rem;
+          font-weight: normal;
+          color: #ffffff;
+          margin-left: 0; }
+  .previous-events .previous-events-3 {
+    position: relative;
+    height: 100%;
+    margin-right: 1rem; }
+    .previous-events .previous-events-3 img {
+      max-width: 100%;
+      height: auto; }
+    .previous-events .previous-events-3 .previous-events-overlay {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) -3.07%, #131313 100%); }
+      .previous-events .previous-events-3 .previous-events-overlay .date {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+        width: 6rem;
+        background-color: #ffff;
+        padding: 0.5rem 0.5rem; }
+        .previous-events .previous-events-3 .previous-events-overlay .date h1 {
+          font-size: 2rem; }
+        .previous-events .previous-events-3 .previous-events-overlay .date h2 {
+          font-size: 1rem; }
+      .previous-events .previous-events-3 .previous-events-overlay .venue {
+        padding-left: 2rem;
+        padding-bottom: 2rem; }
+        .previous-events .previous-events-3 .previous-events-overlay .venue h2 {
+          font-family: "WorkSans", fallback sans-serif;
+          font-size: 1.2rem;
+          font-weight: normal;
+          color: #ffffff;
+          opacity: 0.5;
+          text-transform: uppercase;
+          padding-bottom: 0.5rem; }
+        .previous-events .previous-events-3 .previous-events-overlay .venue h1 {
+          font-size: 2.6rem;
+          font-weight: normal;
+          color: #ffffff;
+          margin-left: 0; }
+  .previous-events .previous-events-4 {
+    position: relative;
+    height: 100%;
+    margin-right: 1rem; }
+    .previous-events .previous-events-4 img {
+      max-width: 100%;
+      height: auto; }
+    .previous-events .previous-events-4 .previous-events-overlay {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) -3.07%, #131313 100%); }
+      .previous-events .previous-events-4 .previous-events-overlay .date {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+        width: 6rem;
+        background-color: #ffff;
+        padding: 0.5rem 0.5rem; }
+        .previous-events .previous-events-4 .previous-events-overlay .date h1 {
+          font-size: 2rem; }
+        .previous-events .previous-events-4 .previous-events-overlay .date h2 {
+          font-size: 1rem; }
+      .previous-events .previous-events-4 .previous-events-overlay .venue {
+        padding-left: 2rem;
+        padding-bottom: 2rem; }
+        .previous-events .previous-events-4 .previous-events-overlay .venue h2 {
+          font-family: "WorkSans", fallback sans-serif;
+          font-size: 1.2rem;
+          font-weight: normal;
+          color: #ffffff;
+          opacity: 0.5;
+          text-transform: uppercase;
+          padding-bottom: 0.5rem; }
+        .previous-events .previous-events-4 .previous-events-overlay .venue h1 {
+          font-size: 2.6rem;
+          font-weight: normal;
+          color: #ffffff;
+          margin-left: 0; }
+  .previous-events .previous-events-4 {
+    position: relative;
+    height: 100%;
+    margin-right: 1rem; }
+    .previous-events .previous-events-4 img {
+      max-width: 100%;
+      height: auto; }
+    .previous-events .previous-events-4 .previous-events-overlay {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) -3.07%, #131313 100%); }
+      .previous-events .previous-events-4 .previous-events-overlay .date {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+        width: 6rem;
+        background-color: #ffff;
+        padding: 0.5rem 0.5rem; }
+        .previous-events .previous-events-4 .previous-events-overlay .date h1 {
+          font-size: 2rem; }
+        .previous-events .previous-events-4 .previous-events-overlay .date h2 {
+          font-size: 1rem; }
+      .previous-events .previous-events-4 .previous-events-overlay .venue {
+        padding-left: 2rem;
+        padding-bottom: 2rem; }
+        .previous-events .previous-events-4 .previous-events-overlay .venue h2 {
+          font-family: "WorkSans", fallback sans-serif;
+          font-size: 1.2rem;
+          font-weight: normal;
+          color: #ffffff;
+          opacity: 0.5;
+          text-transform: uppercase;
+          padding-bottom: 0.5rem; }
+        .previous-events .previous-events-4 .previous-events-overlay .venue h1 {
+          font-size: 2.6rem;
+          font-weight: normal;
+          color: #ffffff;
+          margin-left: 0; }
+  .previous-events .previous-events-5 {
+    position: relative;
+    height: 100%;
+    margin-right: 1rem; }
+    .previous-events .previous-events-5 img {
+      max-width: 100%;
+      height: auto; }
+    .previous-events .previous-events-5 .previous-events-overlay {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) -3.07%, #131313 100%); }
+      .previous-events .previous-events-5 .previous-events-overlay .date {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+        width: 6rem;
+        background-color: #ffff;
+        padding: 0.5rem 0.5rem; }
+        .previous-events .previous-events-5 .previous-events-overlay .date h1 {
+          font-size: 2rem; }
+        .previous-events .previous-events-5 .previous-events-overlay .date h2 {
+          font-size: 1rem; }
+      .previous-events .previous-events-5 .previous-events-overlay .venue {
+        padding-left: 2rem;
+        padding-bottom: 2rem; }
+        .previous-events .previous-events-5 .previous-events-overlay .venue h2 {
+          font-family: "WorkSans", fallback sans-serif;
+          font-size: 1.2rem;
+          font-weight: normal;
+          color: #ffffff;
+          opacity: 0.5;
+          text-transform: uppercase;
+          padding-bottom: 0.5rem; }
+        .previous-events .previous-events-5 .previous-events-overlay .venue h1 {
+          font-size: 2.6rem;
+          font-weight: normal;
+          color: #ffffff;
+          margin-left: 0; }
+
 .col-left {
   background-color: rgba(243, 242, 249, 0.5);
   flex: 0 1 50%; }
