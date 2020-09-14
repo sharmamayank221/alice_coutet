@@ -19,3 +19,19 @@ const navSlide = () => {
 };
 
 navSlide();
+
+// carousel slider
+$(".col-right").slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+});
+
+// pagination carousel
+$(".featured-companies").slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  dots: true,
+});
