@@ -1400,13 +1400,13 @@ img {
       left: 0;
       background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #131313 100%);
       display: flex;
-      align-items: center;
+      justify-content: space-between;
       width: 100%;
       height: 100%;
       z-index: 1;
       align-items: flex-end; }
       .future-events-page .hero-image .image-overlay .venue {
-        flex: 1 0 40%;
+        width: 30%;
         padding-left: 5%;
         padding-bottom: 5%; }
         .future-events-page .hero-image .image-overlay .venue h2 {
@@ -1422,9 +1422,11 @@ img {
           font-weight: normal;
           color: #ffffff; }
       .future-events-page .hero-image .image-overlay .event-flyer {
-        flex: 1 0 20%;
+        display: flex;
+        justify-content: flex-end;
+        width: 70%;
         align-self: flex-end;
-        margin-left: 15%;
+        padding-right: 4rem;
         padding-bottom: 5.5%; }
         .future-events-page .hero-image .image-overlay .event-flyer a {
           background-color: #ffffff;
@@ -1450,16 +1452,23 @@ img {
   .future-events-details .description-title {
     border-bottom: 1px solid #e6e6e6;
     padding: 3rem 3rem 2rem 0; }
-    .future-events-details .description-title .heading-medium {
+    .future-events-details .description-title h1 {
+      font-size: 2.6rem;
       padding-left: 3rem; }
   .future-events-details .events-title-box {
     border-bottom: 1px solid #e6e6e6;
     padding-top: 3rem; }
   .future-events-details .para-title {
     border-bottom: 1px solid #e6e6e6; }
-    .future-events-details .para-title .paragraph-16 {
+    .future-events-details .para-title p {
       width: 70%;
-      padding: 4rem 0 1.2rem 3rem; }
+      padding: 4rem 0 1.2rem 3rem;
+      font-family: "WorkSans", Fallback, sans-serif;
+      font-weight: normal;
+      font-size: 1.6rem;
+      line-height: 136%;
+      color: #202020;
+      opacity: 0.7; }
     .future-events-details .para-title .btn-primary {
       padding-left: 3rem;
       margin-bottom: 3rem; }
@@ -1471,7 +1480,7 @@ img {
       color: #202020;
       padding-bottom: 2rem; }
   .future-events-details .event-box .events-title-box {
-    padding-bottom: 4rem; }
+    padding-bottom: 2rem; }
     .future-events-details .event-box .events-title-box h1 {
       font-size: 2.6rem;
       padding-left: 3rem; }
@@ -1490,12 +1499,40 @@ img {
 .paintings {
   height: 100%;
   background-color: #f3f2f9; }
+  .paintings h1 {
+    font-size: 2.6rem;
+    padding-left: 6rem;
+    padding-top: 6rem; }
   .paintings .current-project-images {
-    padding: 9rem 0; }
+    padding: 6rem 0; }
   .paintings .heading-29 {
     margin-left: 5%;
     padding-top: 3rem;
     padding-bottom: 0; }
+
+@media (max-width: 1000px) {
+  .future-events-details {
+    flex-direction: column; }
+  .future-events-details .event-box .events-title-box {
+    border-top: 1px solid #e6e6e6; }
+  .future-events-page .hero-image .image-overlay .event-flyer a {
+    padding: 1.5rem 1rem; } }
+
+@media (max-width: 450px) {
+  .future-events-details .description-title h1 {
+    font-size: 2.2rem; }
+  .future-events-details .para-title p {
+    font-size: 1.3rem;
+    width: 90%; }
+  .paintings h1 {
+    padding-left: 4rem; } }
+
+@media (max-width: 1000px) {
+  .future-events-page .hero-image .image-overlay {
+    flex-direction: column;
+    align-items: center; }
+  .future-events-page .hero-image .image-overlay .event-flyer {
+    justify-content: flex-start; } }
 
 .previous-events-videos {
   width: 90%;
