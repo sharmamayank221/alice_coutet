@@ -173,6 +173,22 @@ body {
   height: 100%;
   padding: 9rem 0;
   text-align: center; }
+  .home-section-alice h3 {
+    font-family: "WorkSans", Fallback, sans-serif;
+    padding-bottom: 1.3rem;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #9895cd; }
+  .home-section-alice p {
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 1.4;
+    text-align: center;
+    color: #202020;
+    padding-bottom: 8rem;
+    width: 50%; }
   .home-section-alice img {
     width: 100px; }
 
@@ -184,6 +200,14 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid #e6e6e6; }
+  .home-featured h1 {
+    font-weight: normal;
+    font-size: 3.4rem;
+    line-height: 136%;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 9rem;
+    color: #202020; }
 
 .featured-overlay {
   width: 73%; }
@@ -195,12 +219,6 @@ body {
   grid-template-rows: 1fr;
   grid-gap: 1rem;
   margin-bottom: 6rem; }
-  .featured-companies .slick-next {
-    display: none;
-    grid-row: 2/3; }
-  .featured-companies .slick-dots {
-    grid-row: 2/3;
-    display: flex; }
 
 .home-products {
   height: 100%;
@@ -211,6 +229,14 @@ body {
   border: 1px solid #e6e6e6;
   width: 100%;
   padding-bottom: 6rem; }
+  .home-products h1 {
+    font-weight: normal;
+    font-size: 3.4rem;
+    line-height: 136%;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 7rem;
+    color: #202020; }
 
 .products-overlay {
   width: 74%; }
@@ -222,17 +248,36 @@ body {
   grid-template-rows: 1fr;
   grid-gap: 1rem;
   padding-bottom: 4rem; }
+  .products-container .product-single h2 {
+    font-family: "WorkSans", Fallback, sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 136%;
+    letter-spacing: -0.02em;
+    color: #333333; }
+  .products-container .product-single h3 {
+    font-family: "WorkSans", Fallback, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 136%;
+    color: #333333; }
 
-.home-instagram {
-  text-align: center; }
+.home-instagram h1 {
+  font-weight: normal;
+  font-size: 3.4rem;
+  line-height: 136%;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  color: #202020; }
 
 .home-commission-work {
   display: flex;
   width: 95%;
-  height: 430px;
+  height: 420px;
   justify-content: center;
   align-items: center;
-  margin: auto;
   border-right: 1px solid #e6e6e6;
   border-left: 1px solid #e6e6e6; }
 
@@ -240,21 +285,36 @@ body {
   border-top: none;
   flex: 1 0 50%;
   padding: 4rem;
+  height: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .commission-work h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    line-height: 144%;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: #202020; }
 
 .newsletter {
   border-left: 1px solid #e6e6e6;
   flex: 1 0 50%;
   padding: 4rem;
-  text-align: center;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .newsletter h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    line-height: 144%;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: #202020; }
   .newsletter .input-email {
     width: 70%;
     position: relative; }
@@ -978,10 +1038,11 @@ footer {
           opacity: 0.5;
           padding-bottom: 1rem;
           text-transform: uppercase; }
-        .upcoming-events .upcoming-single-events .upcoming-events-overlay .venue h1 {
+        .upcoming-events .upcoming-single-events .upcoming-events-overlay .venue a {
           font-size: 4rem;
           font-weight: normal;
-          color: #ffffff; }
+          color: #ffffff;
+          text-decoration: none; }
 
 .previous-events-container {
   height: 100%;
@@ -1898,6 +1959,20 @@ img {
     padding-top: 30%;
     padding-left: 15%;
     width: 90%; }
+    .col-left .event-title-large h3 {
+      font-family: "WorkSans", Fallback, sans-serif;
+      padding-bottom: 1.3rem;
+      font-weight: normal;
+      font-size: 1.8rem;
+      line-height: 100%;
+      text-transform: uppercase;
+      color: #9895cd; }
+    .col-left .event-title-large h1 {
+      font-weight: normal;
+      font-size: 4rem;
+      line-height: 141.5%;
+      padding-bottom: 4rem;
+      color: #202020; }
 
 .col-right {
   flex: 1 0 50%;
@@ -1963,7 +2038,21 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .col-right-about .about-title-large h3 {
+    font-family: "WorkSans", Fallback, sans-serif;
+    padding-bottom: 1.3rem;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #9895cd; }
   .col-right-about .about-title-large p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+    color: #202020;
+    padding-bottom: 4rem;
     width: 50%; }
 
 .home-event-latest {
@@ -1976,8 +2065,22 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    .home-event-latest .event-title-large h3 {
+      font-family: "WorkSans", Fallback, sans-serif;
+      padding-bottom: 1.3rem;
+      font-weight: normal;
+      font-size: 1.8rem;
+      line-height: 100%;
+      text-transform: uppercase;
+      color: #9895cd; }
     .home-event-latest .event-title-large p {
-      width: 60%; }
+      width: 60%;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 1.4;
+      text-align: center;
+      color: #202020;
+      padding-bottom: 4rem; }
   .home-event-latest .col-right-event {
     width: 100%; }
     .home-event-latest .col-right-event .home-image-container {
@@ -2024,7 +2127,30 @@ img {
     .home-section-event .event-title-large {
       padding-top: 5%;
       padding-left: 5%;
-      width: 90%; }
+      width: 95%; }
+      .home-section-event .event-title-large h3 {
+        font-weight: normal;
+        font-size: 1.6rem; }
+      .home-section-event .event-title-large h1 {
+        font-size: 3.2rem;
+        padding-bottom: 4rem;
+        color: #202020; }
+  .home-section-alice {
+    height: 100%;
+    padding: 9rem 0; }
+    .home-section-alice h3 {
+      padding-bottom: 1.3rem;
+      font-size: 1.6rem; }
+    .home-section-alice p {
+      font-size: 2.2rem;
+      padding-bottom: 8rem;
+      width: 80%; }
+  .col-right-about .about-title-large p {
+    font-size: 2.2rem;
+    width: 80%; }
+  .home-event-latest .event-title-large p {
+    font-size: 2.2rem;
+    width: 80%; }
   .footer-images .footer-images-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 152px); }
