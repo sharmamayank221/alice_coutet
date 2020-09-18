@@ -27,11 +27,3 @@ $(".col-right").slick({
   speed: 300,
   slidesToShow: 1,
 });
-
-// pagination carousel
-$(".featured-companies").slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  dots: true,
-});
