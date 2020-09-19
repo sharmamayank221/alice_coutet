@@ -969,15 +969,192 @@ footer {
   height: 100%;
   padding: 6rem 0; }
   .checkout-title h1 {
-    color: #333333;
     font-size: 5.9rem;
+    line-height: 1.3;
+    color: #333333;
     font-weight: normal;
     text-transform: uppercase; }
 
 .checkout-page-container {
-  display: flex; }
-  .checkout-page-container form {
+  display: flex;
+  justify-content: space-between; }
+  .checkout-page-container form label {
+    display: block;
+    font-family: "WorkSans", Fallback, sans-serif;
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    padding-bottom: 0.5rem; }
+  .checkout-page-container form input {
+    height: 4.7rem;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    margin-bottom: 5%; }
+  .checkout-page-container form input[type="checkbox"] {
+    width: 1.9rem;
+    height: 1.9rem;
+    border: 1px solid #e6e6e6;
+    margin-right: 1rem; }
+  .checkout-page-container form select {
+    height: 4.7rem;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    margin-bottom: 5%; }
+  .checkout-page-container .form-group {
     display: flex; }
+    .checkout-page-container .form-group input {
+      height: 4.7rem;
+      border: 1px solid #e6e6e6;
+      width: 100%; }
+    .checkout-page-container .form-group .name-wrapper,
+    .checkout-page-container .form-group .lastname-wrapper,
+    .checkout-page-container .form-group .town-wrapper,
+    .checkout-page-container .form-group .state-wrapper,
+    .checkout-page-container .form-group .post-code,
+    .checkout-page-container .form-group .phone-wrapper {
+      width: 100%; }
+    .checkout-page-container .form-group .name-wrapper,
+    .checkout-page-container .form-group .town-wrapper,
+    .checkout-page-container .form-group .post-code {
+      margin-right: 5%; }
+  .checkout-page-container .shipping-checkbox {
+    display: flex;
+    font-size: 1.2rem;
+    font-family: "WorkSans", Fallback, sans-serif; }
+  .checkout-page-container .form-billing-address {
+    flex: 1 0 60%;
+    padding: 11rem 9rem;
+    border: 1px solid #e6e6e6; }
+    .checkout-page-container .form-billing-address h1 {
+      font-size: 2.6rem;
+      font-weight: normal;
+      padding-bottom: 3.8rem; }
+  .checkout-page-container .form-total-price {
+    flex: 1 0 40%;
+    padding: 5rem 5rem; }
+    .checkout-page-container .form-total-price .total-price-container {
+      padding: 6rem 4rem;
+      background-image: url(../../images/payment-bg.png); }
+      .checkout-page-container .form-total-price .total-price-container .total {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 1rem; }
+        .checkout-page-container .form-total-price .total-price-container .total h2 {
+          font-family: "WorkSans", Fallback, sans-serif;
+          font-size: 2rem;
+          font-weight: 600;
+          text-transform: uppercase; }
+      .checkout-page-container .form-total-price .total-price-container .products-quantity {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 1rem 0; }
+        .checkout-page-container .form-total-price .total-price-container .products-quantity h3 {
+          font-family: "WorkSans", Fallback, sans-serif;
+          font-size: 1.6rem;
+          font-weight: 500; }
+      .checkout-page-container .form-total-price .total-price-container .subtotal {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0; }
+        .checkout-page-container .form-total-price .total-price-container .subtotal h2,
+        .checkout-page-container .form-total-price .total-price-container .subtotal h3 {
+          font-family: "WorkSans", Fallback, sans-serif;
+          font-size: 2rem;
+          font-weight: 500; }
+      .checkout-page-container .form-total-price .total-price-container .shipping {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 2rem 0; }
+        .checkout-page-container .form-total-price .total-price-container .shipping h3 {
+          font-family: "WorkSans", Fallback, sans-serif;
+          font-size: 2rem;
+          font-weight: 500; }
+        .checkout-page-container .form-total-price .total-price-container .shipping .shipping-printfut h2 {
+          font-family: "WorkSans", Fallback, sans-serif;
+          font-size: 2rem;
+          font-weight: 500; }
+        .checkout-page-container .form-total-price .total-price-container .shipping .shipping-printfut h4 {
+          font-family: "WorkSans", Fallback, sans-serif;
+          font-size: 1.2rem;
+          font-weight: 500;
+          color: #828282; }
+      .checkout-page-container .form-total-price .total-price-container .grand-total {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #e0e0e0;
+        padding: 2rem 0; }
+        .checkout-page-container .form-total-price .total-price-container .grand-total h1 {
+          font-family: "WorkSans", Fallback, sans-serif;
+          font-size: 2.6rem;
+          font-weight: 700;
+          text-transform: uppercase; }
+        .checkout-page-container .form-total-price .total-price-container .grand-total h2 {
+          font-family: "WorkSans", Fallback, sans-serif;
+          font-size: 3rem;
+          font-weight: 700;
+          text-transform: uppercase; }
+    .checkout-page-container .form-total-price .payment-process {
+      background-image: url(../../images/payment-bg-rotated.png);
+      margin-top: 2rem;
+      padding: 6rem 4rem; }
+      .checkout-page-container .form-total-price .payment-process h1 {
+        font-family: "WorkSans", Fallback, sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        padding-bottom: 2rem; }
+      .checkout-page-container .form-total-price .payment-process label {
+        display: block;
+        font-family: "WorkSans", Fallback, sans-serif;
+        font-size: 1.4rem;
+        color: #4f4f4f;
+        padding-bottom: 0.5rem; }
+      .checkout-page-container .form-total-price .payment-process input {
+        height: 4.7rem;
+        border: 1px solid #e6e6e6;
+        width: 100%;
+        margin-bottom: 5%; }
+      .checkout-page-container .form-total-price .payment-process .validity {
+        display: flex;
+        justify-content: space-between; }
+        .checkout-page-container .form-total-price .payment-process .validity input:first-child {
+          margin-right: 5%; }
+        .checkout-page-container .form-total-price .payment-process .validity .expiry,
+        .checkout-page-container .form-total-price .payment-process .validity .cvc {
+          width: 100%; }
+        .checkout-page-container .form-total-price .payment-process .validity .expiry {
+          margin-right: 5%; }
+      .checkout-page-container .form-total-price .payment-process .place-order {
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem; }
+        .checkout-page-container .form-total-price .payment-process .place-order .btn-primary a {
+          text-transform: uppercase; }
+
+@media (max-width: 1400px) {
+  .validity {
+    flex-direction: column; } }
+
+@media (max-width: 1240px) {
+  .form-group {
+    flex-direction: column; } }
+
+@media (max-width: 1120px) {
+  .checkout-page-container {
+    flex-direction: column; } }
+
+@media (max-width: 600px) {
+  .checkout-title h1 {
+    font-size: 3.7rem; }
+  .checkout-page-container .form-billing-address h1 {
+    font-size: 2.1rem; } }
+
+@media (max-width: 485px) {
+  .checkout-page-container .form-billing-address {
+    padding: 3rem 3rem; }
+  .checkout-page-container .form-total-price .total-price-container {
+    padding: 0; } }
 
 .upcoming-events-container {
   width: 100%;
