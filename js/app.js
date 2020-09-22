@@ -19,11 +19,3 @@ const navSlide = () => {
 };
 
 navSlide();
-
-// carousel slider
-$(".col-right").slick({
-  dots: false,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 1,
-});
