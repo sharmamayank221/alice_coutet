@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1.0 minimum-scale=1.0"
     />
     <link rel="stylesheet" href="css/fonts.css" />
+
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Checkout | Alice Coutet</title>
@@ -29,8 +30,8 @@
         </ul>
 
         <div class="checkout-container">
-          <img src="images/icons-cart.svg" alt="cart" />
-          <img src="images/icon-search.png" alt="search" />
+          <a href="#"><img src="images/icon-header-cart.svg" alt="cart" /></a>
+          <a href="#"> <img src="images/icon-search.svg" alt="search" /></a>
         </div>
         <div class="burger">
           <div class="line-1"></div>
@@ -56,18 +57,22 @@
                 <div class="form-group ">
                   <div class="name-wrapper">
                     <label for="firstname">First Name</label>
+                    <span class="input-group">
                     <input type="text" name="firstname" id="firstname" />
+                    </span>
                   </div>
                    <div class="lastname-wrapper">
                     <label for="lastname">Last Name</label>
-                    <input type="text" name="lastname" id="lastname" />
+                    <span class="input-group">
+                    <input type="text" name="lastname" id="lastname" /></span>
                    </div>
                
                 </div>
                 <label for="company name">Company Name</label>
-                <input type="text" name="company name" id="company name" />
+                <span class="input-group">
+                <input type="text" name="company name" id="company name" /></span>
                 <label for="country">Country</label
-                ><span
+                ><span 
                  
                   ></span
                 >
@@ -389,32 +394,39 @@
                   <option value="Zimbabwe">Zimbabwe</option>
                 </select>
                 <label for="street address">Street address</label>
-                <input type="text" name="street address" id="street address" />
+                <span class="input-group">
+                <input type="text" name="street address" id="street address" /></span>
                 <div class="form-group ">
                   <div class="town-wrapper">
                     <label for="town">Town/city</label>
-                    <input type="text" name="town" id="town" />
+                    <span class="input-group">
+                    <input type="text" name="town" id="town" /></span>
                   </div>
               <div class="state-wrapper">
                 <label for="state">state</label>
-                <input type="text" name="state" id="state" />
+                <span class="input-group">
+                <input type="text" name="state" id="state" /></span>
               </div>
              
                 </div>
                 <div class="form-group ">
                   <div class="post-code">
                     <label for="postcode">Postcode/zip</label>
-                    <input type="number" name="postcode" id="postcode" />
+                    <span class="input-group">
+                    <input type="number" name="postcode" id="postcode" /></span>
                   </div>
                  <div class="phone-wrapper">
                   <label for="phone">phone</label>
-                  <input type="tel" name="phone" id="phone" />
+                  <span class="input-group">
+                  <input type="tel" name="phone" id="phone" /></span>
                  </div>
                 </div>
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+                <span class="input-group">
+                <input type="email" name="email" id="email"></span>
                 
                 <div class="shipping-checkbox">
+
                   <input type="checkbox" name="location" id="location" />
                   <label for="checkbox">Ship to a different address</label>
                 </div>
@@ -461,23 +473,27 @@
                   <form action="">
                     <div class="card-number">
            <label for="card-number">Card number</label>
+           <span class="input-group">
            <input type="number" name="card-number" id="card-number" 
            placeholder="0000 0000 0000 0000">
+           </span>
                     </div>
                     <div class="validity">
                       <div class="expiry">
                         <label for="Expire day">Expire day</label>
-                        <input type="date" name="Expire day" id="Expire day">
+                        <span class="input-group">
+                        <input type="date" name="Expire day" id="Expire day"></span>
                       </div>
                    <div class="cvc">
                      <label for="cvc">CVC Code</label>
-                     <input type="number" name="cvc" id="cvc">
+                     <span class="input-group">
+                     <input type="number" name="cvc" id="cvc"></span>
                    </div>
                     </div>
                     <div class="place-order">
                       <div class="btn-primary">
                         <a href="#" class="btn">Place order</a>
-                        <img src="images/icon-swirl.png" alt="" />
+                        <img src="images/proceed-to-checkout-swirl.svg" alt="" />
                       </div>
                     </div>
                    
@@ -492,57 +508,55 @@
       </section>
       <section class="footer-images">
         <div class="footer-images-container">
-          <img src="images/footer-img-1.png" alt="footer-image" />
-          <img src="images/footer-img-2.png" alt="footer-image" />
-          <img src="images/footer-img-3.png" alt="footer-image" />
-          <img src="images/footer-img-4.png" alt="footer-image" />
-          <img src="images/footer-img-5.png" alt="footer-image" />
-          <img src="images/footer-img-6.png" alt="footer-image" />
-          <img src="images/footer-img-7.png" alt="footer-image" />
-          <img src="images/footer-img-8.png" alt="footer-image" />
+          <img src="images/footer-img-1.svg" alt="footer-image" />
+          <img src="images/footer-img-2.svg" alt="footer-image" />
+          <img src="images/footer-img-3.svg" alt="footer-image" />
+          <img src="images/footer-img-4.svg" alt="footer-image" />
+          <img src="images/footer-img-5.svg" alt="footer-image" />
+          <img src="images/footer-img-6.svg" alt="footer-image" />
+          <img src="images/footer-img-7.svg" alt="footer-image" />
+          <img src="images/footer-img-8.svg" alt="footer-image" />
         </div>
       </section>
   
-    <!-- footer -->
-    <footer>
-      <div class="footer-border">
-        <div class="footer-links">
-          <ul>
-            <li>
-              <a href="#">Gallery</a>
-            </li>
+   <!-- footer -->
+   <footer>
+    <div class="footer-border">
+      <div class="footer-links">
+        <ul>
+          <li>
+            <a href="#">Gallery</a>
+          </li>
 
-            <li><a href="about.html">About Artist</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="current_project.html">Current Project</a></li>
-            <li><a href="products_reviews.html">Product Reviews</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <div class="footer-social-icons">
-            <a href=""> <img src="images/icons-fb.png" alt="facebook" /></a>
-            <a href=""
-              ><img src="images/icons-insta.png" alt="instagram"
-            /></a>
-            <a href=""><img src="images/icons-yt.png" alt="youtube" /></a>
-          </div>
+          <li><a href="about.html">About Artist</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="current_project.html">Current Project</a></li>
+          <li><a href="products_reviews.html">Product Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="footer-social-icons">
+          <a href=""> <img src="images/icons-fb.svg" alt="facebook" /></a>
+          <a href=""
+            ><img src="images/icons-insta.svg" alt="instagram"
+          /></a>
+          <a href=""><img src="images/icons-yt.svg" alt="youtube" /></a>
         </div>
-        <div class="footer-copyright">
-          <h3>&copy;2020 Alice Coutet</h3>
-          <img src="images/icons-footer-dot.png" alt="dot" height="3px" />
-          <h4>
-            All content included on this site, such as text, graphics, logos,
-            button icons, images, audio clips, digital downloads, data
-            compilations, and software is the property of Alice Coutet and
-            protected by all applicable copyright laws.
-          </h4>
-        </div>
-   
       </div>
-   
-    </footer>
-    <!-- end of footer -->
-  </div>
+      <div class="footer-copyright">
+        <h3>&copy;2020 Alice Coutet</h3>
+        <img src="images/icons-dot.svg" alt="dot" height="3px" />
+        <h4>
+          All content included on this site, such as text, graphics, logos,
+          button icons, images, audio clips, digital downloads, data
+          compilations, and software is the property of Alice Coutet and
+          protected by all applicable copyright laws.
+        </h4>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+</div>
 
-  <script src="js/app.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
